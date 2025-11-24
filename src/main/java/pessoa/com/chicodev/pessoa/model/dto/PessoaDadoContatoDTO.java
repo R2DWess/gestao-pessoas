@@ -1,5 +1,10 @@
 package pessoa.com.chicodev.pessoa.model.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class PessoaDadoContatoDTO {
 
     private String telefone;
@@ -13,19 +18,4 @@ public class PessoaDadoContatoDTO {
         this.email = email;
     }
 
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
 }
